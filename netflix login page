@@ -1,0 +1,119 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                position: relative;
+                font-family: Verdana, Genava, Verdana, Geneva, Tahoma, sans-serif;
+                height: 100vh;
+                background: #000;
+
+            }
+            body::-webkit-scrollbar{
+                display: none;
+
+            }
+            h1,h2,h3,h4,h5,h6,p{
+                padding: 0;
+                margin: 0;
+            }
+            .main{
+                position: relative;
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+                opacity: 0.6;
+            }
+            .container{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+            }
+            .navbar{
+                padding: 30px 80px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .logo{
+                width: 100px;
+            }
+            .logo>img{
+                max-width: 100%;
+            }
+            .signin{
+                color: #fff;
+                cursor: pointer;
+                background: red;
+                max-height: max-content;
+                max-width: max-content;
+                padding: 5px 10px;
+                border-radius: 5px; 
+            }
+            .subcontainer{
+                height: 80px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                color: #fff;
+
+
+            }
+            h1{
+                font-size: 40px;
+
+            }
+            input{
+                background: #000;
+                border: solid grey;
+                color: #fff;
+                padding: 10px;
+                width: 400px;
+                font-size: 20px;
+                outline: none;
+
+
+            }
+            button{
+                background: red;
+                border: solid red;
+                color:#fff;
+                font-weight:600;
+                padding: 10px;
+                font-size: 20px;
+                cursor: pointer;
+
+            }
+            </style>
+            </head>
+    <body>
+        <div class="main">
+            <img class="bgimage" src="C:\Users\srini\OneDrive\Pictures\Screenshots\Screenshot 2023-12-24 124711.png" alt="bgimage">
+        </div>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="C:\Users\srini\OneDrive\Desktop\nlogo.jfif">
+                    </div>
+                    <div class="signin">Sign In</div>
+                    </div>
+                    <div class="subcontainer">
+                        <h1>Unlimited movies, TV shows, adn more</h1>
+                        <h4>plans now start at INR 199/month.</h4>
+                        <p>Ready to watch enter your email to create or restart.</p>
+                        <form>
+                            <input type="text" value="Enter address">
+                            <button>Get Started</button>
+                        </form>
+                        </div>
+                        </div>
+                    </body>
+                    </html> 
